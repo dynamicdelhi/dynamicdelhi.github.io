@@ -94,6 +94,7 @@ $(document).ready(function(){
         }
     });
     
+    
  //   if ($(".filter-button").removeClass("active")) {
 //$(this).removeClass("active");
 //}
