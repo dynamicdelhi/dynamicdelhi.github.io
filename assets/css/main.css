@@ -1,8 +1,10 @@
-body{
+body,html{
 	background-color: #ededed;
 	font-family: 'Oswald';
 	position: relative;
 	margin-top: 0;
+	overflow-x:hidden;
+	width: auto;
 }
 
 /*======================================================================
@@ -100,7 +102,13 @@ body{
 	padding-bottom: 6px;
 }
 
-
+a:link {
+    text-decoration: none;
+     color: white;
+ }
+/*a:hover {
+    text-decoration: underline;
+}*/
 
 
 /*======================================================================
@@ -253,6 +261,7 @@ body{
     border: none;
     border-radius: .28571429rem;
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-bottom: 15px;
 }
 
 .card-block {
@@ -299,8 +308,9 @@ body{
 
 .porduct-box img{
 	width: 250px;
-    height: 250px; 
+    height: 250px;  
 }
+
 .product-title{
 	position: absolute;
     top: 5px;
@@ -362,7 +372,10 @@ body{
 		padding: 0 80px;
 	}
 }
-
+@media (min-width: 768px){
+		.owl-theme .owl-dots .owl-dot{zoom: 0.8 !important;
+	}
+}
 
 
 
@@ -635,7 +648,13 @@ body{
     transition: all .5s;
 }
 
-
+p.main {
+    text-align: justify;
+    padding-right: 3%;
+    color: #eded;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
 
 /*======================================================================
 ##		Contact
@@ -823,6 +842,9 @@ body{
 	.team-img{
 		width: 100%;
 	}
+	.boxed {
+		margin-left:3% !important; 
+	}
 }
 /*CTA*/
 /*****/
@@ -838,9 +860,15 @@ body{
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 10px;
+	width:auto;
+	overflow-x:hidden;
 }
 .cta .btn-robot:hover{
 	color: #fabe12;
+}
+
+.modal {
+	color:black !important;
 }
 @media (max-width: 677px){
 	.cta{
