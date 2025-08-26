@@ -2,4 +2,4 @@
 
 ### Address: D-7/3, Okhla Industrial Area, Phase-II, Delhi 110020
 ### Phone: +91-11-41406222
-### Email: dynamicdelhi@vsnl.com
+### Email: dynamicenggdelhi@gmail.com
